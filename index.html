@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ukrainian Traditional Cuisine">
+    <meta name="author" content="Daria Osypova">
+    <title>Ukrainian Traditional Cuisine</title>
+    <link rel="stylesheet" href="./styles.css" >
+</head>
+
+
+<body>
+    <header class="header">
+        <h1 class="header-title">Welcome to Ukrainian Traditional Cuisine</h1>
+        <h2 class="header-subtitle">OSYPOVA DARIA</h2>
+
+    </header>
+
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2 class="intro-header">Top 4 Ukrainian-inspired recipes to try</h2>
+                <p class="intro-mid">As so many families in the UK prepare to welcome Ukrainian refugees,
+                    food from Eastern Europe acquires a new significance. It becomes not only a means of sustenance but
+                    also a
+                    language through which to let people, fleeing the horrors of war, know that they're welcomed and
+                    that they have a new home.
+                    It's a way to show that we care and that their stories matter.When someone loses their home and
+                    their land, food becomes a lifeline.
+                    We all know the power of food to comfort us during the dark times, to make us feel connected and
+                    like we belong to a community.
+                    I hope these recipes will help create a sense of home away from home, to offer comfort and a sense
+                    of togetherness.</p>
+                <nav>
+                    <ol>
+                        <h3><a href="borsch.html">Borsch</a></h3>
+                        <br> <a href="borsch.html"><img src="./borscht-recipe-ab000dc.jpg.webp" alt="borsch-image"
+                                width="300" height="250"></a>
+                    </ol>
+                </nav>
+                <p class="int-borsch">The first dish on the menu would have to be Bortsch,
+                    the quintessential dish of Ukrainian cuisine and a real food for the soul.
+                    <br>It varies, seasonally and regionally, but this classic version by Olia Hercules
+                    will appeal to everyone.
+                </p>
+                <br>
+
+                <nav>
+                    <ol>
+                        <h3><a href="cabbage.html">Tangy cabbage slaw</a></h3>
+                        <br> <a href="cabbage.html"><img src="./cabbagr.webp" alt="cabbage-image" width="300"
+                                height="250"></a>
+                    </ol>
+                </nav>
+                <p class="int-cabbage">Cabbage is a key ingredient in Ukrainian recipes and while
+                    many may see this as proof of the age-old stereotype of bland and boring Eastern
+                    European cuisine, there are, in fact, many vibrant dishes that this humble
+                    vegetable lends itself to. <br>Try substituting the mayo for good quality unrefined
+                    sunflower oil in this recipe, then add some dill and a sprinkling of toasted
+                    sunflower seeds.</p>
+                <br>
+                <nav>
+                    <ol>
+                        <h3><a href="shukhi.html">Shukhi</a></h3>
+                        <br> <a href="shukhi.html"><img src="./shukhi-warm-beetroot-mushroom-salad-6615df7.jpg.webp"
+                                alt="shukhi-image" width="300" height="250"></a>
+                    </ol>
+                </nav>
+                <p class="int-shukhi">Beetroot and mushrooms are staple ingredients in Ukrainian
+                    cuisine, and this recipe from Olia Hercules marries the two perfectly.</p>
+                <br>
+
+                <nav>
+                    <ol>
+                        <h3><a href="pierogi.html">Pierogi</a></h3>
+                        <br> <a href="pierogi.html"><img src="./pierogi-708d712.jpg.webp" alt="pierogi-image"
+                                width="300" height="250"></a>
+                    </ol>
+                </nav>
+                <p class="int-pierogi">Dumplings are a comfort food all over the world and
+                    particularly in Eastern Europe. <br>Known as pierogi in Poland, they're called
+                    varenyky in Ukraine. <br>They can be filled with savoury and sweet stuffings,
+                    which range from mashed potatoes and sauerkraut, to sweet curd cheese and
+                    fresh berries. <br>Enjoy with a big dollop of soured cream.</p>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+
+                <!--footer-text-->
+                <div class="footer-text-footer-column">
+                    <div class="footer-text-name">@Osypova Daria</div>
+                    <p>My personal portfolio</p>
+                </div>
+                <!--STOP footer-text-->
+
+                <div class="footer-icons-footer-column">
+                    <p>My email:</p>
+                    <p>2424428@gmail.com</p>
+                </div>
+
+                <div class="footer-contacts-footer-column">
+                    <a href="#" class="footer-button">
+                        Contact in Gmail
+                    </a>
+                    <p>Write me if you have some questions or suggestions to improve my portfolio.</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Start JS -->
+    <script>
+        // Wait for the entire HTML document to be fully loaded before running the script
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // Select the title element (h1) with the class "header-title"
+            const title = document.querySelector(".header-title");
+
+            // Define the text that will be animated in a typing effect
+            const text = "Welcome to Ukrainian Traditional Cuisine";
+
+            // Set an index to track the current character position in the text
+            let index = 0;
+
+            function typeEffect() {
+                // Check if there are still characters left to display
+                if (index < text.length) {
+
+                    // Add the next character to the title's text content
+                    title.textContent += text[index];
+                    index++;
+                    setTimeout(typeEffect, 50); // Adjust speed (100ms per letter)
+                }
+            }
+
+            title.textContent = ""; // Clear original text
+            typeEffect();
+        });
+    </script>
+
+</body>
+
+</html>

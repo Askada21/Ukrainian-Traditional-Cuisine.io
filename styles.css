@@ -1,0 +1,558 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffe6ba;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Header */
+.header {
+    background-color: rgb(40, 58, 41);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header-title {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.header-subtitle {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Main Section */
+main {
+    padding: 40px 20px;
+}
+
+.intro {
+    background-color: rgb(40, 58, 41);
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.intro-header {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.intro-mid {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ol {
+    list-style: none;
+}
+
+nav a {
+    color: #fffc9f;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+nav img {
+    margin-left: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav img:hover {
+    transform: scale(1.05);
+}
+
+.int-borsch,
+.int-cabbage,
+.int-shukhi,
+.int-pierogi {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(40, 58, 41);
+    color: white;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-text-footer-column,
+.footer-icons-footer-column,
+.footer-contacts-footer-column {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.footer-text-name {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.footer-text-footer-column p {
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+.footer-icons-footer-column p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.footer-button {
+    background-color: #fffc9f;
+    color: rgb(40, 58, 41);
+    padding: 10px 25px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer-button:hover {
+    background-color: #f1b104;
+}
+
+.footer-contacts-footer-column p {
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2.5em;
+    }
+
+    .header-subtitle {
+        font-size: 1.3em;
+    }
+
+    .intro-header {
+        font-size: 2em;
+    }
+
+    .intro-mid {
+        font-size: 1em;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+/*BORSCH*/
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/*BODYYYYYY*/
+
+/* Container Styles */
+.container-b {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Project Header */
+.project-header {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #173d15;
+}
+
+/* Borsch Image */
+.project-borsch-img img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-borsch-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Description */
+.description-borsch {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #173d15;
+    margin-bottom: 40px;
+}
+
+.description-borsch h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #173d15;
+    margin-bottom: 20px;
+}
+
+.description-borsch p {
+    margin: 10px 0;
+}
+
+.description-borsch ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.description-borsch ol li {
+    margin: 10px 0;
+}
+
+/* Section for 'How to Prepare' */
+.description-borsch p {
+    font-size: 1.1em;
+    color: #173d15;
+    margin-bottom: 20px;
+}
+
+/* Back Button */
+.project-btn-back {
+    display: inline-block;
+    background-color: #173d15;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.project-btn-back:hover {
+    background-color: #92d899;
+}
+
+.project-btn-back:focus {
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-header {
+        font-size: 2.5em;
+    }
+
+    .description-borsch {
+        font-size: 1.1em;
+    }
+
+    .project-btn-back {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*CABB*/
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container Styles */
+.container-c {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Project Header */
+.project-header-cabb {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(40, 58, 41);
+}
+
+/* Cabbage Slaw Image */
+.project-cabb-img img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-cabb-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Description */
+.description-cabb {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #173d15;
+    margin-bottom: 40px;
+}
+
+.description-cabb h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #173d15;
+    margin-bottom: 20px;
+}
+
+.description-cabb p {
+    margin: 10px 0;
+}
+
+.description-cabb ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.description-cabb ol li {
+    margin: 10px 0;
+}
+
+/* Section for 'How to Prepare' */
+.description-cabb p {
+    font-size: 1.1em;
+    color: #173d15;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-header-cabb {
+        font-size: 2.5em;
+    }
+
+    .description-cabb {
+        font-size: 1.1em;
+    }
+
+    .project-btn-back {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*PIR*/
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container Styles */
+.container-p {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Project Header */
+.project-header-p {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(40, 58, 41);
+}
+
+/* Pierogi Image */
+.project-p-img img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-p-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Description */
+.description-p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #173d15;
+    margin-bottom: 40px;
+}
+
+.description-p h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #173d15;
+    margin-bottom: 20px;
+}
+
+.description-p p {
+    margin: 10px 0;
+}
+
+.description-p ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.description-p ol li {
+    margin: 10px 0;
+}
+
+/* Section for 'How to Prepare' */
+.description-p p {
+    font-size: 1.1em;
+    color: #173d15;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-header-p {
+        font-size: 2.5em;
+    }
+
+    .description-p {
+        font-size: 1.1em;
+    }
+
+    .project-btn-back {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*S*/
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container Styles */
+.container-s {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Project Header */
+.project-header-s {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(40, 58, 41);
+}
+
+/* Shukhi Image */
+.project-s-img img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-s-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Description */
+.description-s {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #173d15;
+    margin-bottom: 40px;
+}
+
+.description-s h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #173d15;
+    margin-bottom: 20px;
+}
+
+.description-s p {
+    margin: 10px 0;
+}
+
+.description-s ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.description-s ol li {
+    margin: 10px 0;
+}
+
+/* Section for 'How to Prepare' */
+.description-s p {
+    font-size: 1.1em;
+    color: #173d15;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-header-s {
+        font-size: 2.5em;
+    }
+
+    .description-s {
+        font-size: 1.1em;
+    }
+
+    .project-btn-back {
+        width: 100%;
+        text-align: center;
+    }
+}
+
