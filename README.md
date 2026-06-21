@@ -1,4 +1,4 @@
-# Ukrainian-Traditional-Cuisine🇺🇦🌿
+# Ukrainian Traditional Cuisine🇺🇦🌿
 A simple multi-page website showcasing traditional Ukrainian-inspired recipes.
 This project was completed during my college studies at DCFE (Dundrum College of Further Education) as an assignment to strengthen skills in HTML, CSS, and JavaScript.
 
