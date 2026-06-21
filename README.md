@@ -2,6 +2,9 @@
 A simple multi-page website showcasing traditional Ukrainian-inspired recipes.
 This project was completed during my college studies at DCFE (Dundrum College of Further Education) as an assignment to strengthen skills in HTML, CSS, and JavaScript.
 
+## 🔗 Live Demo
+👉 [View the project here](https://askada21.github.io/Ukrainian-Traditional-Cuisine.io/)
+
 ## 📌 Project Overview
 This website presents four traditional Ukrainian-inspired dishes:
 - Borscht
@@ -10,7 +13,11 @@ This website presents four traditional Ukrainian-inspired dishes:
 - Pierogi
 Each dish has its own separate page with an image and description.
 
-## 📁 Project Structure 
+## 🧰 Technologies Used
+
+![HTML5](https://img.shields.io/badge/HTML5-orange)
+![CSS3](https://img.shields.io/badge/CSS3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 
 
 ## 🖼️ Features
@@ -22,11 +29,10 @@ Each dish has its own separate page with an image and description.
 - Basic JavaScript animation (typing effect)
 - Organized image folder
 
-## 🧰 Technologies Used
 
-![HTML5](https://img.shields.io/badge/HTML5-orange)
-![CSS3](https://img.shields.io/badge/CSS3-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+## 📁 Project Structure 
+<img src="https://github.com/Askada21/Ukrainian-Traditional-Cuisine.io/blob/34b3f5bad90aa027dc2cc9f12d8cff2e4b94eee6/Screenshot%202026-06-21%20at%2015.50.07.png?raw=true" width="280">
+
 
 ## 🖥️ Project Preview
 
@@ -82,6 +88,5 @@ Key takeaways:
 - Add dark mode toggle using JavaScript
 
 
-## 🔗 Live Demo
-👉 [View the project here](https://askada21.github.io/Ukrainian-Traditional-Cuisine.io/)
+
 
