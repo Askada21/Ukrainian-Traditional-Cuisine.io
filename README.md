@@ -24,6 +24,24 @@ Each dish has its own separate page with an image and description.
 - CSS3
 - JavaScript (basic DOM manipulation)
 
+## 🖥️ Project Preview
+
+### 🏠 Home Page
+![Home Page](https://github.com/Askada21/Ukrainian-Traditional-Cuisine.io/blob/ae43cb2d91a78de2e2debbdb7337d78a0bfacab2/Screenshot%202026-06-21%20at%2014.53.02.png)
+
+### 🍲 Borscht Page
+![Borscht](screenshots/borsch.png)
+
+### 🥬 Cabbage Page
+![Cabbage](screenshots/cabbage.png)
+
+### 🍄 Shukhi Page
+![Shukhi](screenshots/shukhi.png)
+
+### 🥟 Pierogi Page
+![Pierogi](screenshots/pierogi.png)
+
+ 
 
 
 
