@@ -10,6 +10,9 @@ This website presents four traditional Ukrainian-inspired dishes:
 - Pierogi
 Each dish has its own separate page with an image and description.
 
+## 📁 Project Structure 
+
+
 ## 🖼️ Features
 - Multi-page website structure
 - Custom CSS3 styling (layout, colors, typography)
@@ -20,9 +23,10 @@ Each dish has its own separate page with an image and description.
 - Organized image folder
 
 ## 🧰 Technologies Used
-- HTML5
-- CSS3
-- JavaScript (basic DOM manipulation)
+
+![HTML5](https://img.shields.io/badge/HTML5-orange)
+![CSS3](https://img.shields.io/badge/CSS3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 
 ## 🖥️ Project Preview
 
@@ -36,7 +40,7 @@ Each dish has its own separate page with an image and description.
 
 <details>
   <summary>🥬 Cabbage Page</summary>
-  <img src="https://github.com/Askada21/Ukrainian-Traditional-Cuisine.io/blob/f3f8bf4d1dfc93c4931ff73df8527db311059070/Screenshot%202026-06-21%20at%2014.54.07.png?raw=true" width="600">
+  <img src="https://github.com/Askada21/Ukrainian-Traditional-Cuisine.io/blob/f3f8bf4d1dfc93c4931ff73df8527db311059070/Screenshot%202026-06-21%20at%2014.53.51.png?raw=true" width="600">
 </details>
 
 <details>
@@ -53,7 +57,7 @@ Each dish has its own separate page with an image and description.
 This project was created to practice building a structured multi-page website and improve my skills in HTML, CSS, and JavaScript.
 
 ## 📚 What I Learned
-During this project, I improved my understanding of how to build and structure a multi-page website using HTML, CSS, and JavaScript.
+This project helped me understand how small issues in file structure and naming can break a full website, and improved my debugging skills in front-end development.
 
 Key takeaways:
 - How to structure a multi-page website using proper HTML linking between pages
@@ -63,7 +67,6 @@ Key takeaways:
 - Adding simple JavaScript functionality (typing animation effect)
 - Improving attention to detail when fixing bugs like broken image paths
   
-This project also helped me better understand how small details (like file names and folder structure) can affect how a website works.
 
 ## 🧩 Challenges
 - Managing correct file paths for images and pages  
@@ -72,12 +75,13 @@ This project also helped me better understand how small details (like file names
 - Debugging missing images due to incorrect folder paths
 
 ## 🚀 Future Improvements
-- Make the website fully responsive for mobile devices  
-- Improve UI design and consistency  
-- Add more recipes and categories  
-- Enhance JavaScript interactivity
+- Make the website fully responsive for mobile and tablet devices
+- Improve UI consistency with a shared design system (colors, spacing, typography)
+- Add recipe details (ingredients, cooking steps, cooking time)
+- Improve accessibility (semantic HTML, alt text, contrast)
+- Add dark mode toggle using JavaScript
 
-  ## 🔗 Live Demo
-You can view the project here:  
-https://YOUR-USERNAME.github.io/Ukrainian-Traditional-Cuisine.io/
+
+## 🔗 Live Demo
+👉 [View the project here](https://askada21.github.io/Ukrainian-Traditional-Cuisine.io/)
 
