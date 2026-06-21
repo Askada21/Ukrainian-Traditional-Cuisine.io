@@ -39,6 +39,7 @@ Each dish has its own separate page with an image and description.
 ### 🏠 Home Page
 <img src="https://github.com/Askada21/Ukrainian-Traditional-Cuisine.io/blob/ae43cb2d91a78de2e2debbdb7337d78a0bfacab2/Screenshot%202026-06-21%20at%2014.53.02.png?raw=true" width="600">
 
+#### (Click the arrow to open the image)
 <details>
   <summary>🍲 Borscht Page</summary>
   <img src="https://github.com/Askada21/Ukrainian-Traditional-Cuisine.io/blob/f3f8bf4d1dfc93c4931ff73df8527db311059070/Screenshot%202026-06-21%20at%2014.53.36.png?raw=true" width="600">
